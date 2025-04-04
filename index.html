@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Lucas Oliveira - Front-End Developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__link" href="#home">Home</a>
+                <a class="cabecalho__menu__link" href="#sobre">Sobre mim</a>
+                <a class="cabecalho__menu__link" href="#tecnologias">Tecnologias</a>
+                <a class="cabecalho__menu__link" href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="apresentacao" id="home">
+        <div class="container">
+            <section class="apresentacao__conteudo">
+                <h1 class="apresentacao__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-End de qualidade!</strong></h1>
+                <p class="apresentacao__texto">
+                    Olá! Sou Lucas Oliveira, desenvolvedor Front-End com especialidade em React, HTML e CSS. 
+                    Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?
+                </p>
+                <div class="apresentacao__links">
+                    <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                    <a href="https://instagram.com/oliveeira.lucas" class="botao" target="_blank">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                    <a href="https://github.com/oliveeiralucas" class="botao" target="_blank">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/oliveeiralucas/" class="botao botao--destaque" target="_blank">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </section>
+            <div class="apresentacao__imagem">
+                <img src="public/garotoProgramando.png" alt="Lucas Oliveira desenvolvedor Front-End" class="imagem-principal">
+            </div>
+        </div>
+    </main>
+
+    <section id="sobre" class="sobre-mim">
+        <div class="container">
+            <div class="sobre-mim__conteudo">
+                <h2 class="secao-titulo">Sobre mim</h2>
+                <div class="sobre-mim__texto">
+                    <p>
+                        Estou cursando engenharia de software pela universidade Unifil, com cerca de 2 anos de experiência 
+                        em desenvolvimento Front-End e dezenas de projetos tirados do papel e lançados ao mundo real. Minha paixão é criar interfaces bonitas, responsivas e acessíveis.
+                    </p>
+                    <p>
+                        Quando não estou codando, estou estudando e aprofundando meus conhecimento ou praticando triatlon (umas das grandes paixões da minha vida).
+                    </p>
+                </div>
+                <div class="sobre-mim__destaque">
+                    <div class="destaque-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Formação</h3>
+                        <p>Engenharia de Software - Unifil</p>
+                    </div>
+                    <div class="destaque-card">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>Experiência</h3>
+                        <p>2+ anos desenvolvendo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologias" class="tecnologias">
+        <div class="container">
+            <h2 class="secao-titulo">Tecnologias que Domino</h2>
+            <p class="secao-descricao">Ferramentas e tecnologias que utilizo para criar soluções incríveis</p>
+            
+            <div class="tecnologias__grid">
+                <div class="tecnologia-card">
+                    <div class="tecnologia-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Estrutura semântica e acessível para web</p>
+                    <div class="nivel">
+                        <div class="nivel__barra" style="width: 95%"></div>
+                        <span>100%</span>
+                    </div>
+                </div>
+                
+                <div class="tecnologia-card">
+                    <div class="tecnologia-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>Estilização criativa e responsiva</p>
+                    <div class="nivel">
+                        <div class="nivel__barra" style="width: 90%"></div>
+                        <span>100%</span>
+                    </div>
+                </div>
+                
+                
+                <div class="tecnologia-card">
+                    <div class="tecnologia-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React</h3>
+                    <p>Componentes reutilizáveis e SPA</p>
+                    <div class="nivel">
+                        <div class="nivel__barra" style="width: 80%"></div>
+                        <span>80%</span>
+                    </div>
+                </div>
+                
+                <div class="tecnologia-card">
+                    <div class="tecnologia-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3>Git</h3>
+                    <p>Controle de versão e colaboração</p>
+                    <div class="nivel">
+                        <div class="nivel__barra" style="width: 75%"></div>
+                        <span>85%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato" class="rodape">
+        <div class="container">
+            <div class="rodape__conteudo">
+                <h2 class="rodape__titulo">Vamos trabalhar juntos?</h2>
+                <p class="rodape__texto">Estou disponível para novos projetos e oportunidades.</p>
+                
+                <div class="rodape__contato">
+                    <a href="mailto:lucas.oliveira@edu.unifil.br" class="contato-link">
+                        <i class="fas fa-envelope"></i> lucas.oliveira@edu.unifil.br
+                    </a>
+                    <a href="https://wa.me/5543984133173?text=Olá%20Lucas,%20vim%20pelo%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre..." class="contato-link">
+                        <i class="fab fa-whatsapp"></i> (43) 9 8413-3173
+                    </a>
+                </div>
+            </div>
+            
+            <div class="rodape__creditos">
+                <p>Desenvolvido com <i class="fas fa-heart"></i> por Lucas Oliveira</p>
+                <p>© 2023 Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
