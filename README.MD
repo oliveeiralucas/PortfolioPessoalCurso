@@ -2,7 +2,7 @@
 # 📝 Portfólio - Lucas Oliveira
 Desenvolvedor Front-End especializado em React, HTML e CSS
 
-![Preview do Portfólio](/html-css-ambiente-arquivos-tags/public/garotoProgramando.png)
+![Preview do Portfólio](/public/garotoProgramando.png)
 
 ## 🚀 Visão Geral
 Este repositório contém o código fonte do meu portfólio profissional como desenvolvedor Front-End. O projeto apresenta:
